@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.0 on win32)" generated="20230628 23:06:55.497" rpa="false" schemaversion="4">
+<suite id="s1" name="CRM" source="X:\Repo\robotFrameworkLearning\dev\robotScripts\proj2\CRM.robot">
+<test id="s1-t1" name="Test Case" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230628 23:06:55.614" level="INFO">Opening browser 'edge' to base url 'https://www.google.com'.</msg>
+<msg timestamp="20230628 23:06:55.615" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230628 23:06:55.615" level="FAIL">TypeError: WebDriver.__init__() got an unexpected keyword argument 'service_log_path'</msg>
+<status status="FAIL" starttime="20230628 23:06:55.613" endtime="20230628 23:06:55.616"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20230628 23:06:55.616" endtime="20230628 23:06:55.616"/>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<arg>800</arg>
+<arg>600</arg>
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<status status="NOT RUN" starttime="20230628 23:06:55.616" endtime="20230628 23:06:55.616"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20230628 23:06:55.616" endtime="20230628 23:06:55.617"/>
+</kw>
+<status status="FAIL" starttime="20230628 23:06:55.613" endtime="20230628 23:06:55.617">TypeError: WebDriver.__init__() got an unexpected keyword argument 'service_log_path'</status>
+</test>
+<status status="FAIL" starttime="20230628 23:06:55.499" endtime="20230628 23:06:55.617"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="CRM">CRM</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
